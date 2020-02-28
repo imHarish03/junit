@@ -1,7 +1,6 @@
 package junit.helper;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -25,7 +24,7 @@ public class StringHelperParameterizedTest {
 
 	@Parameters
 	public static Collection<String[]> testConditions() {
-		String expectedOutputs[][] = { { "AACD", "CD" }, { "AD", "CD" },{ "CD", "CD" } };
+		String expectedOutputs[][] = { { "AACD", "CD" }, { "AD", "CD" }, { "CD", "CD" } };
 		return Arrays.asList(expectedOutputs);
 	}
 
