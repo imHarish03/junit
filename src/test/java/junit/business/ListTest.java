@@ -45,4 +45,12 @@ public class ListTest {
 		simpleListMoct.get(0);
 	}
 
+	@Test
+	public void letsMockListGetSize() {
+		List simpleListMoct = mock(List.class);
+		// when(simpleListMoct.size()).thenReturn(0);
+
+		assertEquals(0, simpleListMoct.size());
+	}
+
 }
