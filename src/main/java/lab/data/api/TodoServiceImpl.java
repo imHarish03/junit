@@ -9,4 +9,8 @@ public class TodoServiceImpl implements TodoService {
 		return Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn to Fight");
 	}
 
+	public void deleteTodo(String todo) {
+
+	}
+
 }
